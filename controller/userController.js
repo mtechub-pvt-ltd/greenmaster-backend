@@ -178,7 +178,7 @@ export const createUser = async (req, res) => {
         </head>
         <body>
           <div class="container">
-            <h2>Congratulations on Your Payment!</h2>
+            <h2>Congratulations on Your Course Enrollment!</h2>
             <p>Hello,</p>
             <p>We are delighted to inform you that your payment has been successfully processed.</p>
             <p>Your user portal credentials are as follows:</p>
