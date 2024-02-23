@@ -10,5 +10,6 @@ export const getAllRows = async (tableName) => {
     const query = `SELECT * FROM ${tableName} ORDER BY ${tableName}.id`;
     const result = await pool.query(query);
     return result.rows;
+    // new
   };
   
