@@ -194,7 +194,7 @@ export const createUser = async (req, res) => {
         </body>
         </html>
         `;
-        // await emailSent(createdUser.rows[0].email, output, "Wellcome email");
+        await emailSent(createdUser.rows[0].email, output, "Wellcome email");
         const token = jwt.sign(
           { userId: createdUser.rows[0].id },
           process.env.SECRET_KEY,
