@@ -7,12 +7,12 @@ export const emailSent = (email, output,subject) => {
         secure: true, // use SSL
         service: "gmail",
         auth: {
-          user: "testing.mtechub@gmail.com",
-          pass: "znctgxqkxeswimtz",
+          user: "mtechub.plane@gmail.com",
+          pass: "rigavehzekqtfjsm",
         },
       });
       var mailOptions = {
-        from: "testing.mtechub@gmail.com",
+        from: "mtechub.plane@gmail.com",
         to: email,
         subject: subject,
         html: output,
